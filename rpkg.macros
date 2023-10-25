@@ -1,0 +1,12 @@
+function get_version() {
+	verstring=$(cat debian/changelog | grep -m 1 bluez-firmware | cut -d"(" -f 2 | cut -d")" -f 1)
+	ver=$(echo "$verstring" | cut -d"-" -f 1)
+	echo "$ver"
+}
+
+function get_release() {
+	verstring=$(cat debian/changelog | grep -m 1 bluez-firmware | cut -d"(" -f 2 | cut -d")" -f 1)
+	rel=$(echo "$verstring" | cut -d"-" -f 2)
+	rel=$(echo "$rel" | sed 's/+/\./g')
+	echo $rel
+}
