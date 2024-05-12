@@ -52,6 +52,7 @@ ln -s ../synaptics/SYN43430B0.hcd %{buildroot}%{_prefix}/lib/firmware/brcm/BCM43
 %{_prefix}/lib/firmware/brcm/BCM43430B0.hcd
 %{_prefix}/lib/firmware/brcm/BCM4345C0.hcd
 %{_prefix}/lib/firmware/brcm/BCM4345C5.hcd
+%{_prefix}/lib/firmware/brcm/BCM4343A2.hcd
 %{_prefix}/lib/firmware/synaptics/SYN43430A1.hcd
 %{_prefix}/lib/firmware/synaptics/SYN43430B0.hcd
 %{_prefix}/lib/firmware/brcm/BCM43430A1.raspberrypi,3-model-b.hcd
