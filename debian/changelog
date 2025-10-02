@@ -1,3 +1,13 @@
+bluez-firmware (1.2-9+rpt4) bookworm; urgency=medium
+
+  [ macmpi ]
+  * Update bluez-firmware.links
+
+  [ Phil Elwell ]
+  * Update bluez-firmware.links
+
+ -- Serge Schneider <serge@raspberrypi.com>  Thu, 02 Oct 2025 17:53:42 +0100
+
 bluez-firmware (1.2-9+rpt3) bookworm; urgency=medium
 
   [ Phil Elwell ]
